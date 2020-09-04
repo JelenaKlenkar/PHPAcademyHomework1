@@ -1,12 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <?php require_once 'head.php'?>
-<?php include_once 'navigation.php' ?>
 <style>
     h1{text-align: center;font-size: 40px}
     p{text-align: center}
-    div{text-align: center}
+    div{text-align: center; margin-left: 300px; margin-right: 300px}
     ul{display: table;
-    margin: auto}
+        margin: auto}
 </style>
+<?php include_once 'navigation.php' ?>
+
 <header>
     <h1 style="font-weight: bold">Second page</h1>
     &nbsp;
@@ -24,9 +27,12 @@
 </ul>
 </div>
 <hr>
+<div>
 <p>Input Banana</p>
 <form method="post" action="">
-<input class="input" type="text" name="word" placeholder="Text input">
+    <label>
+        <input class="input" type="text" name="word" placeholder="Text input">
+    </label>
     <button class="success button">Submit</button>
     </form>
 
@@ -60,7 +66,7 @@ if (isset($_POST['word'])) {
 }
 
 ?>
-
+</div>
 
 </body>
 </html>

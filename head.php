@@ -1,5 +1,4 @@
-<!doctype html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,5 +6,5 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first page</title>
+    <title>My_first_page</title>
 </head>

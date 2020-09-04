@@ -1,6 +1,7 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <?php require_once 'head.php' ?>
 <style>
-
     h1{text-align: center;
         font-size: 60px}
     div{text-align: center;
